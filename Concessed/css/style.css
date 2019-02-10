@@ -1,0 +1,106 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.header{
+  /* margin-top: 10px; */
+  /* color: silver */
+}
+
+.img{
+  background: linear-gradient(to right, rgba(0, 8, 2, 0.405), rgba(0, 07, 07, 0.17)), url(../background1.jpg); 
+  background-size: cover;
+  z-index: 11;
+}
+.brand-logo{
+  position: absolute;
+  left: -110;
+  top: 0;
+  background: url(../logo.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100px;
+  z-index: 100;
+}
+nav{
+  padding: 0;
+}
+.nav-wrapper{
+  /* padding: 0; */
+  margin: 0;
+  width: 100%;
+}
+.action-button:hover, .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+.cus{
+  color: black;
+}
+/*headings*/
+/*.fs-title {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}*/
